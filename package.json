@@ -21,6 +21,11 @@
     "url": "https://github.com/solarnz/gulp-invalidate-cloudfront/issues"
   },
   "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront",
+  "dependencies": {
+    "aws-sdk": "^2.1.18",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.3"
+  },
   "devDependencies": {
     "jshint": "^2.6.3"
   }
