@@ -4,7 +4,8 @@
   "description": "A gulp plugin to invalidate files in a cloudfront distribution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint **.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/solarnz/gulp-invalidate-cloudfront/issues"
   },
-  "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront"
+  "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront",
+  "devDependencies": {
+    "jshint": "^2.6.3"
+  }
 }
