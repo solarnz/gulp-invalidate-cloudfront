@@ -1,6 +1,6 @@
 {
   "name": "gulp-invalidate-cloudfront",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A gulp plugin to invalidate files in a cloudfront distribution",
   "main": "index.js",
   "scripts": {
