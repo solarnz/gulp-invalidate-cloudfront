@@ -1,0 +1,23 @@
+{
+  "name": "gulp-invalidate-cloudfront",
+  "version": "0.1.0",
+  "description": "A gulp plugin to invalidate files in a cloudfront distribution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solarnz/gulp-invalidate-cloudfront.git"
+  },
+  "keywords": [
+    "gulp",
+    "cloudfront"
+  ],
+  "author": "Chris Trotman <chris@trotman.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solarnz/gulp-invalidate-cloudfront/issues"
+  },
+  "homepage": "https://github.com/solarnz/gulp-invalidate-cloudfront"
+}
