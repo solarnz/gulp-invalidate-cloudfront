@@ -2,4 +2,4 @@
 
 BUG FIXES:
 
-	* Fixed error while while throwing an error. Thanks @unity
+  * Fixed error while while throwing an error. Thanks @unity
