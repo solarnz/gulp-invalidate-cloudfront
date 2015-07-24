@@ -1,10 +1,10 @@
 {
   "name": "gulp-invalidate-cloudfront",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A gulp plugin to invalidate files in a cloudfront distribution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "lint": "jshint **.js"
   },
   "repository": {
@@ -27,6 +27,10 @@
     "through2": "^0.6.3"
   },
   "devDependencies": {
-    "jshint": "^2.6.3"
+    "chai": "^2.2.0",
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
   }
 }
