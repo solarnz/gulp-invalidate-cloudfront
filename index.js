@@ -25,13 +25,11 @@ module.exports = function(invalidationBatch, options) {
       InvalidationBatch: invalidationBatch
     }, function(err, data) {
       if (err) {
-        gutil.error('Could not invalidate cloudfront: ' + err);
-        cb(false);
+        throw new gutil.PluginError('gulp-invalidate-cloudfront', 'Could not invalidate cloudfront: ' + err);
+        return cb(false);
       }
 
-      gutil.log('Cloudfront invalidation created with id: ' +
-                data.Invalidation.Id);
-
+      gutil.log('Cloudfront invalidation created with id: ' + data.Invalidation.Id);
       cb();
     });
   }
