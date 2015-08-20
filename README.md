@@ -16,14 +16,14 @@ var invalidationBatch = {
     CallerReference: new Date().now().toString(),
     Paths: {
         Quantity: 1,
-        Items: ['/index.html/']
+        Items: ['/index.html']
     }
 };
 
 var awsSettings = {
     credentials: {
         accessKeyId: 'aaaa',
-        secretKeyId: 'bbbb'
+        secretAccessKey: 'bbbb'
     },
     distributionId: 'EAKJKJSS',
     region: 'us-east-1'
