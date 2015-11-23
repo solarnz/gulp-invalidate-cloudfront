@@ -10,7 +10,7 @@
 
 ```js
 var gulp = require('gulp');
-var cloufront = require('gulp-invalidate-cloudfront');
+var cloudfront = require('gulp-invalidate-cloudfront');
 
 var invalidationBatch = {
     CallerReference: new Date().now().toString(),
