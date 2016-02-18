@@ -13,7 +13,7 @@ var gulp = require('gulp');
 var cloudfront = require('gulp-invalidate-cloudfront');
 
 var invalidationBatch = {
-    CallerReference: new Date().now().toString(),
+    CallerReference: Date.now().toString(),
     Paths: {
         Quantity: 1,
         Items: ['/index.html']
